@@ -1,4 +1,4 @@
-name = "aiforge-workers"
+name = "aiforge-api"
 main = "src/index.ts"
 compatibility_date = "2024-01-15"
 workers_dev = true
