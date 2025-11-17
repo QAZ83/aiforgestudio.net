@@ -1,0 +1,36 @@
+# Build
+build*/
+[Dd]ebug/
+[Rr]elease/
+x64/
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+compile_commands.json
+
+# C++/CUDA
+*.o
+*.obj
+*.lib
+*.dll
+*.exe
+*.ptx
+*.cubin
+
+# Qt
+*.pro.user
+*.moc
+moc_*.cpp
+ui_*.h
+Makefile*
+
+# IDE
+.vscode/
+.vs/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db

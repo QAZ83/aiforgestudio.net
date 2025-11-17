@@ -1,0 +1,16 @@
+name = "aiforge-workers"
+main = "src/index.ts"
+compatibility_date = "2024-01-15"
+workers_dev = true
+
+[ai]
+binding = "AI"
+
+[[kv_namespaces]]
+binding = "KV"
+id = "your-kv-id"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "aiforge-db"
+database_id = "your-db-id"

@@ -1,0 +1,19 @@
+name = "aiforge-api"
+main = "src/index.js"
+compatibility_date = "2025-01-13"
+
+# ربط الدومين
+routes = [
+  { pattern = "aiforgestudio.net/api/*", zone_name = "aiforgestudio.net" }
+]
+
+# KV Storage للتراخيص
+kv_namespaces = [
+{ binding = "LICENSES", id = "cdbef02b0a63456ca6b6075c4a10a359" }
+]
+
+# Variables
+[vars]
+APP_VERSION = "1.0.0"
+APP_NAME = "AI Forge Studio"
+WEBSITE_URL = "https://aiforgestudio.net"
