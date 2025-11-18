@@ -7,5 +7,6 @@ export default defineWorkersConfig({
 				wrangler: { configPath: './wrangler.jsonc' },
 			},
 		},
+		teardownTimeout: 10000,
 	},
 });
