@@ -40,6 +40,13 @@
 	 * https://developers.cloudflare.com/workers/wrangler/configuration/#service-bindings
 	 */
 	// "services": [{ "binding": "MY_SERVICE", "service": "my-service" }]
+	"d1_databases": [
+		{
+			"binding": "MY_DB",
+			"database_name": "my-database",
+			"database_id": "xxxx-xxxx-xxxx-xxxx"
+		}
+	],
 	"triggers": {
 		"crons": [
 			"* * * * *"
